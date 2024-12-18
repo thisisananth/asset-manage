@@ -1,0 +1,20 @@
+{
+    "debugMode": true,
+    "queryInput": {
+        "languageCode": "en-US",
+        "text": {
+            "text": "What are the management fees for your international bond fund?"
+        }
+    },
+    "queryParams": {
+        "llmModelSettings": {
+            "model": "gemini-pro"
+        },
+        "playbookStateOverride": {
+            "currentSessionTrace": {
+                "actions": [],
+                "name": "projects/df-es-test/locations/us-central1/agents/212ffc6c-12fd-4694-b22b-0d0622c5593a/playbooks/00000000-0000-0000-0000-000000000000/examples/-"
+            }
+        }
+    }
+}

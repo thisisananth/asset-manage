@@ -1,0 +1,6 @@
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "x-goog-user-project: df-es-test" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://us-central1-dialogflow.googleapis.com/v3/projects/df-es-test/locations/us-central1/agents/212ffc6c-12fd-4694-b22b-0d0622c5593a/sessions/session-1:detectIntent"

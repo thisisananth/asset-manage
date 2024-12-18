@@ -1,0 +1,330 @@
+{
+    "products": [
+      {
+        "name": "Global Equity Growth Fund",
+        "assetClass": "Equity",
+        "investmentType": "Actively managed global stock portfolio",
+        "returns": {
+          "oneYear": 12.5,
+          "threeYear": 10.8,
+          "fiveYear": 9.7
+        },
+        "feeStructure": {
+          "managementFee": 0.75,
+          "performanceFee": {
+            "rate": 15,
+            "benchmark": "MSCI World Index"
+          },
+          "minimumInvestment": 50000
+        },
+        "risk": {
+          "riskLevel": "Moderate",
+          "riskFactors": ["Market risk", "Currency risk", "Economic risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Daily",
+          "settlementPeriod": "T+3",
+          "lockupPeriod": "None",
+          "redemptionFees": "None"
+        }
+      },
+      {
+        "name": "Balanced Income Fund",
+        "assetClass": "Balanced",
+        "investmentType": "Hybrid fund focusing on income generation",
+        "returns": {
+          "oneYear": 7.2,
+          "threeYear": 6.5,
+          "fiveYear": 5.9
+        },
+        "feeStructure": {
+          "managementFee": 0.60,
+          "performanceFee": null,
+          "minimumInvestment": 25000
+        },
+        "risk": {
+          "riskLevel": "Low to Moderate",
+          "riskFactors": ["Interest rate risk", "Market risk", "Credit risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Daily",
+          "settlementPeriod": "T+3",
+          "lockupPeriod": "None",
+          "redemptionFees": "None"
+        }
+      },
+      {
+        "name": "US Treasury Bond Fund",
+        "assetClass": "Fixed Income",
+        "investmentType": "Passively managed US government bond fund",
+        "returns": {
+          "oneYear": 2.1,
+          "threeYear": 2.5,
+          "fiveYear": 2.3
+        },
+        "feeStructure": {
+          "managementFee": 0.15,
+          "performanceFee": null,
+          "minimumInvestment": 10000
+        },
+        "risk": {
+          "riskLevel": "Low",
+          "riskFactors": ["Interest rate risk", "Inflation risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Daily",
+          "settlementPeriod": "T+2",
+          "lockupPeriod": "None",
+          "redemptionFees": "None"
+        }
+      },
+      {
+        "name": "Emerging Markets Opportunities Fund",
+        "assetClass": "Equity",
+        "investmentType": "Actively managed emerging market stocks",
+        "returns": {
+          "oneYear": 15.7,
+          "threeYear": 11.2,
+          "fiveYear": 9.8
+        },
+        "feeStructure": {
+          "managementFee": 1.00,
+          "performanceFee": {
+            "rate": 20,
+            "benchmark": "MSCI Emerging Markets Index"
+          },
+          "minimumInvestment": 100000
+        },
+        "risk": {
+          "riskLevel": "High",
+          "riskFactors": ["Political risk", "Currency risk", "Liquidity risk", "Market risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Weekly",
+          "settlementPeriod": "T+5",
+          "lockupPeriod": "1 month",
+          "redemptionFees": "1% if redeemed within 90 days"
+        }
+      },
+      {
+        "name": "Global Real Estate Investment Trust (REIT) Fund",
+        "assetClass": "Real Estate",
+        "investmentType": "Globally diversified REIT portfolio",
+        "returns": {
+          "oneYear": 8.9,
+          "threeYear": 7.6,
+          "fiveYear": 7.2
+        },
+        "feeStructure": {
+          "managementFee": 0.85,
+          "performanceFee": null,
+          "minimumInvestment": 25000
+        },
+        "risk": {
+          "riskLevel": "Moderate to High",
+          "riskFactors": ["Real estate market risk", "Interest rate risk", "Economic risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Daily",
+          "settlementPeriod": "T+3",
+          "lockupPeriod": "None",
+          "redemptionFees": "None"
+        }
+      },
+      {
+        "name": "High-Yield Corporate Bond Fund",
+        "assetClass": "Fixed Income",
+        "investmentType": "Actively managed high-yield corporate bonds",
+        "returns": {
+          "oneYear": 6.8,
+          "threeYear": 5.9,
+          "fiveYear": 5.5
+        },
+        "feeStructure": {
+          "managementFee": 0.70,
+          "performanceFee": {
+            "rate": 10,
+            "benchmark": "ICE BofA US High Yield Index"
+          },
+          "minimumInvestment": 50000
+        },
+        "risk": {
+          "riskLevel": "Moderate to High",
+          "riskFactors": ["Credit risk", "Interest rate risk", "Liquidity risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Daily",
+          "settlementPeriod": "T+3",
+          "lockupPeriod": "None",
+          "redemptionFees": "0.5% if redeemed within 30 days"
+        }
+      },
+      {
+        "name": "Commodity Futures Fund",
+        "assetClass": "Commodity",
+        "investmentType": "Actively managed commodity futures contracts",
+        "returns": {
+          "oneYear": 11.3,
+          "threeYear": 8.7,
+          "fiveYear": 7.5
+        },
+        "feeStructure": {
+          "managementFee": 1.20,
+          "performanceFee": {
+            "rate": 20,
+            "benchmark": "Bloomberg Commodity Index"
+          },
+          "minimumInvestment": 100000
+        },
+        "risk": {
+          "riskLevel": "High",
+          "riskFactors": ["Commodity price volatility", "Geopolitical risk", "Currency risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Daily",
+          "settlementPeriod": "T+3",
+          "lockupPeriod": "None",
+          "redemptionFees": "1% if redeemed within 60 days"
+        }
+      },
+      {
+        "name": "Private Equity Growth Fund",
+        "assetClass": "Private Equity",
+        "investmentType": "Growth equity in private companies",
+        "returns": {
+          "oneYear": 18.5,
+          "threeYear": 22.3,
+          "fiveYear": 20.1
+        },
+        "feeStructure": {
+          "managementFee": 2.00,
+          "performanceFee": {
+            "rate": 20,
+            "hurdleRate": 8
+          },
+          "minimumInvestment": 1000000
+        },
+        "risk": {
+          "riskLevel": "Very High",
+          "riskFactors": ["Illiquidity risk", "Concentration risk", "Valuation risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Quarterly",
+          "settlementPeriod": "90 days",
+          "lockupPeriod": "10 years",
+          "redemptionFees": "Varies based on lock-up period"
+        }
+      },
+      {
+        "name": "Venture Capital Fund",
+        "assetClass": "Venture Capital",
+        "investmentType": "Early-stage startup investments",
+        "returns": {
+          "oneYear": -5.2,
+          "threeYear": 15.7,
+          "fiveYear": 25.4
+        },
+        "feeStructure": {
+          "managementFee": 2.50,
+          "performanceFee": {
+            "rate": 25,
+            "hurdleRate": 8
+          },
+          "minimumInvestment": 500000
+        },
+        "risk": {
+          "riskLevel": "Very High",
+          "riskFactors": ["Startup failure risk", "Illiquidity risk", "Technology risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "None",
+          "settlementPeriod": "N/A",
+          "lockupPeriod": "7-10 years",
+          "redemptionFees": "N/A"
+        }
+      },
+      {
+        "name": "Hedge Fund - Long/Short Equity Strategy",
+        "assetClass": "Alts",
+        "investmentType": "Long/short equity positions",
+        "returns": {
+          "oneYear": 14.2,
+          "threeYear": 11.8,
+          "fiveYear": 10.5
+        },
+        "feeStructure": {
+          "managementFee": 2.00,
+          "performanceFee": {
+            "rate": 20
+          },
+          "minimumInvestment": 1000000
+        },
+        "risk": {
+          "riskLevel": "High",
+          "riskFactors": ["Market risk", "Leverage risk", "Short-selling risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Quarterly",
+          "settlementPeriod": "45 days",
+          "lockupPeriod": "1 year, with quarterly redemptions thereafter",
+          "redemptionFees": "2% if redeemed within 1 year"
+        }
+      },
+      {
+        "name": "Infrastructure Fund",
+        "assetClass": "Real Assets",
+        "investmentType": "Infrastructure projects (e.g., toll roads, airports, utilities)",
+        "returns": {
+          "oneYear": 9.8,
+          "threeYear": 8.5,
+          "fiveYear": 7.9
+        },
+        "feeStructure": {
+          "managementFee": 1.50,
+          "performanceFee": {
+            "rate": 15,
+            "hurdleRate": 6
+          },
+          "minimumInvestment": 250000
+        },
+        "risk": {
+          "riskLevel": "Moderate",
+          "riskFactors": ["Regulatory risk", "Political risk", "Construction and operational risks"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Quarterly",
+          "settlementPeriod": "60 days",
+          "lockupPeriod": "5-7 years",
+          "redemptionFees": "Varies based on lock-up period"
+        }
+      },
+      {
+        "name": "Distressed Debt Fund",
+        "assetClass": "Distressed Debt",
+        "investmentType": "Distressed and defaulted securities",
+        "returns": {
+          "oneYear": 22.7,
+          "threeYear": 16.5,
+          "fiveYear": 14.2
+        },
+        "feeStructure": {
+          "managementFee": 1.75,
+          "performanceFee": {
+            "rate": 20,
+            "hurdleRate": 7
+          },
+          "minimumInvestment": 500000
+        },
+        "risk": {
+          "riskLevel": "High",
+          "riskFactors": ["Credit risk", "Liquidity risk", "Event risk"]
+        },
+        "liquidity": {
+          "redemptionFrequency": "Semi-annual",
+          "settlementPeriod": "90 days",
+          "lockupPeriod": "3 years, with semi-annual redemptions thereafter",
+          "redemptionFees": "3% if redeemed within 3 years"
+        }
+      }
+    ]
+  }
